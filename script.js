@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Function to randomize the images on each reload
   function randomizeImages() {
-    const randomIndex = Math.floor(Math.random() * 5); // Random index for duplicate image
+    const randomIndex = Math.floor(Math.random() * 5+1); // Random index for duplicate image
     duplicateImageIndex = randomIndex; // Set the duplicate image index
     const duplicateImage = images[randomIndex];
 
